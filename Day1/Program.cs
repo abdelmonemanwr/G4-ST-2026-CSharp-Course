@@ -70,7 +70,7 @@ namespace DotNet
             #endregion
 
             #region casting
-
+            /*
             long id = 100;  // implicit casting
 
 
@@ -117,11 +117,11 @@ namespace DotNet
             int val = 10;
             //string s = (string)val;
             string s = val.ToString();
-
+            */
             #endregion
 
             #region Parsing
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
 
             //int _age = int.Parse(input);
             //Console.WriteLine(_age);
