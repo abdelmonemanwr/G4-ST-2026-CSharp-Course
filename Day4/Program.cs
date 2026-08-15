@@ -174,6 +174,10 @@ namespace Day4
             return $"{Id}-{Name}-{Gender}-{Email}-{Priviledges}";
         }
 
+
+        // Type_Of , IS_A, Inheritance
+        // student s2 = new student();
+        // s1.Equals(s2);
         public override bool Equals(object? obj)
         {
             return obj is Employee emp && Id == emp.Id && Name == emp.Name && Email == emp.Email;
