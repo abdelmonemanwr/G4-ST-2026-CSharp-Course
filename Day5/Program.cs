@@ -151,7 +151,7 @@
             //t.Name = "Men3m";
             //t.Email = "men3m@iti.gov.eg";
 
-            Person.Show();
+            //Person.Show();
             #endregion
 
             #region Sealed Class
