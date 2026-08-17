@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab
+namespace Lab.Q1
 {
-    public class Duration
+    public interface IShape
     {
-
+        double GetArea();
+        string GetInfo();
     }
 }
